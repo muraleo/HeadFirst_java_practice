@@ -32,7 +32,8 @@ class Song2 implements Comparable<Song2>{
 	}
 
 	//override toString() method in Song class
+	//when System.out.println(song), terminal will show title:artist for each song
 	public String toString(){
-		return title;
+		return title+":"+artist;
 	}
 }
