@@ -12,6 +12,7 @@ public class SortMountains{
 	class HeightCompare implements Comparator<Mountain>{
 		public int compare(Mountain one, Mountain two){
 			return one.getHeight().compareTo(two.getHeight());
+			//return one.height-two.height
 		}
 	}
 
